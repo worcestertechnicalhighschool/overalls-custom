@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5, h6{
     margin: auto;
     padding: 12px;
 }
+.widget-area{
+    margin-bottom:48px;
+}
 .site-main{
     z-index:1;
     background-color: white;
