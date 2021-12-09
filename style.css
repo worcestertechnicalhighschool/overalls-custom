@@ -176,6 +176,7 @@ h1, h2, h3, h4, h5, h6{
 /*--------------------------------------------------------------
 # Footer Nav
 --------------------------------------------------------------*/
+.secondary-nav ul, 
 .footer-nav ul {
     display: flex;
     justify-content: flex-start;
@@ -183,10 +184,12 @@ h1, h2, h3, h4, h5, h6{
     margin: 12px 0;
     padding-left: 0;
 }
+.secondary-nav a,
 .footer-nav a{
     color: #ddd;
     margin-right: 20px;
 }
+.secondary-nav a:hover,
 .footer-nav a:hover{
     text-decoration: none;
 }

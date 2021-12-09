@@ -24,6 +24,16 @@
 			);
 			?>
 		</nav>
+		<nav class="secondary-nav">
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-2',
+					'menu_id'        => 'secondary-menu',
+				)
+			);
+			?>
+		</nav>
 	</footer><!-- #colophon -->
 </div>
 

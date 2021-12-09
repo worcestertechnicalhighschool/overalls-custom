@@ -23,10 +23,13 @@ function overalls_setup() {
     */
     add_theme_support( 'post-thumbnails' );
 
-    // This theme uses wp_nav_menu() in one location.
     register_nav_menus(
-        array( 'menu-1' => 'Primary',)
+        array( 
+            'menu-1' => 'Primary',
+            'menu-2' => 'Secondary Menu',
+        )
     );
+
     /*
     * Switch default core markup for search form, comment form, and comments
     * to output valid HTML5.
