@@ -42,7 +42,7 @@
 			style="background-image:url('<?php 
 						echo get_template_directory_uri() . '/images/tag.jpg'; ?>');" 
 				>
-				<?php include(get_template_directory() .'inc/overalls-svg.php'); ?>
+				<?php include(get_template_directory() .'/inc/overalls-svg.php'); ?>
 			</span>
 			<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 		</div><!-- .site-branding -->
