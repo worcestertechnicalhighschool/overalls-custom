@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6{
     grid-template-rows: 100px  auto 1fr  auto  auto;
     background-color: #fafafb;
 }
-.site-main, .site-header, .widget-area, .site-footer{
+.site-main, .site-header, .main-navigation, .widget-area, .site-footer{
     width: 100%;
     max-width: 1023px;
     margin: auto;
