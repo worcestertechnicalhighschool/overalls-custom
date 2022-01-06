@@ -66,9 +66,7 @@
 
 		<p class="card__meta">
 			<?php the_category(','); ?> 
-			<?php if( has_tag() ): ?>
-				| <?php the_tags(''); ?> 
-			<?php endif; ?>
+			
 		</p>
 	</header><!-- .entry-header -->
 	<section class="card__body">
