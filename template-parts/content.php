@@ -22,7 +22,7 @@
 		<div class="entry-meta">
 			<div class="post__meta">
 				<?php 
-					the_category(',');
+					the_category(', ');
 
 					if( has_tag() ): ?>
 						| <?php the_tags(''); ?> 
