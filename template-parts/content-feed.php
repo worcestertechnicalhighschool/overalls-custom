@@ -65,7 +65,7 @@
 		<?php endif; ?>
 
 		<p class="card__meta">
-			<?php the_category(','); ?> 
+			<?php the_category(', '); ?> 
 			
 		</p>
 	</header><!-- .entry-header -->
